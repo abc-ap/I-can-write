@@ -13,17 +13,51 @@
 </script>
 
 
-<!doctype html> <html> <head>
-    <title>Classify your Image!</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> </head> <body style="background-color:#5cdbd5"> <div id="maintext" 
-style="position:absolute; margin:auto; width:700px; height:200px; text-align:center; top:0; bottom: 0; left: 0; right: 0;">
-  <h1 class="text-light mb-2"> Upload your snapshot of your number! </h1>
-  <h4 class="text-light mb-5">(The snapshot must be less than 500kb in size)</h4>
-  <form method=post enctype=multipart/form-data>
-     <p class="text-light">
-        <input type=file name=file>
-        <input type=submit value=Upload> 
-     </p>
-  </form> </div> </body>
+<!doctype html>
+<html>
+    <head>
+      <meta name="viewport" content="with=device-width, initial-scale=1.0">
+      <title>I can write</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body style="background-color:#5cdbd5">
+        <section style="min-height: 100vh; width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
+        url(Images/Background.png); background-position: center; background-size: cover; position: relative;">
+            <nav style="display: flex;padding: 2% 6%;justify-content: space-between;align-items: center;">
+            <a href="index.html"><img src="images/PencilProfavatarsq.png"></a>
+            <div style="flex: 1;text-align: right;">
+            <style>
+            nav ul li {list-style: none; display: inline-block; padding: 8px 12px; position: relative;}
+            nav ul li a{color: #fff; text-decoration: none; font-size: 13px;}
+            nav ul li::after{content: ''; width: 0%; height: 2px; background: #f44336; display: block; margin: auto; transition: 0.5s;}
+            nav ul li:hover::after{width: 100%;}
+            </style>           
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">LEARN</a></li>
+                <li><a href="">MORE RESOURCES</a></li>
+                <li><a href="">HELP</a></li>
+                <li><a href="">ABOUT</a></li>
+            </ul>        
+            </div>        
+            </nav>
+            <div id="maintext" style="width: 90%; color: #fff; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);text-align:center">
+                <h1 class="text-light mb-2">Hi there! Let's practice writing numbers.</h1>
+                <h4>Ready? Grab a black pencil and a piece of plain white paper.<br>Write on!</h4>
+                <p class="text-light mb-5">(The snapshot must be less than 500kb in size)</p>
+                <form method=post enctype=multipart/form-data>
+                    <p class="text-light">
+                        <input type=file name=file>
+                        <input type=submit value=Upload> 
+                    </p>
+                </form> 
+            </div>
+            <div style="min-height: 100vh; width: 100%;
+                        position: absolute; bottom: 0;text-align: left;">
+            <h1 class="text-light mb-2">About us</h1>
+            </div>
+          </section>
+       </body>
 </html>
