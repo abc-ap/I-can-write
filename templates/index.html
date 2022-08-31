@@ -1,18 +1,3 @@
-<script>
-  window.watsonAssistantChatOptions = {
-    integrationID: "9cbf8297-9274-4cc7-bd81-31e0caba4d93", // The ID of this integration.
-    region: "us-south", // The region your integration is hosted in.
-    serviceInstanceID: "24dca861-946b-4a70-9ae5-ececadbcfa3c", // The ID of your service instance.
-    onLoad: function(instance) { instance.render(); }
-  };
-  setTimeout(function(){
-    const t=document.createElement('script');
-    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
-    document.head.appendChild(t);
-  });
-</script>
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,12 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 </head>
+    
 <body>
+    
 <section class="header">
        <nav>
         <a href="index.html"><img src="static/Images/PencilProfavatarsq.png"></a>
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
                 <li><a href="">HOME</a></li>
                 <li><a href="">LEARN</a></li>
@@ -35,23 +24,29 @@
                 <li><a href="">HELP</a></li>
                 <li><a href="">ABOUT</a></li>
             </ul>        
-        </div>        
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
 
-<div class="text-box">
+<div class="text-box1">
+    <br><br>
     <h1>Hi there! Let's practice writing numbers.</h1>
+    <br>
     <h4>Ready? Grab a black pencil and a piece of plain white paper.<br>Write on!</h4>
+    <br>
     <p>(The snapshot must be less than 500kb in size)</p>
     <form method=post enctype=multipart/form-data>
     <p>
-        <input type=file name=file>
-        <input type=submit value=Upload> 
+        <br>
+        <br>
+        <input type=file  name=file>
+        <input type=submit  value=Upload> 
     </p>
     </form> 
     </div>
 </section>
 
-<section class="footer">
+<section class="text-box2">
     <h4>About us</h4>
     <p>IBM IMVAI 2202 Team 1</p>
     <div class="icons">
@@ -61,6 +56,21 @@
         <i class="fa fa-linkedin"></i>            
     </div>
 </section>
+
+<!------ JavaScript for Toggle Menu  ---------->
+<script>
     
-</body>    
+    var navLinks = document.getElementByID("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+     function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+    
+</script>    
+    
+</body>
 </html>
