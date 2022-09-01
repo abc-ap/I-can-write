@@ -142,6 +142,10 @@ nav .fa{
     cursor: pointer;
     padding: 18px 0;
 }
-.fa-heart-o{
+.fa-heart{
     color: #f44336;
+}
+@media(max-width:700px){
+   .footer h4{
+        font-size: 13px;
 }
