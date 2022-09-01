@@ -14,22 +14,11 @@
 
 
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="with=device-width, initial-scale=1.0">
-    <title>I can write</title>
-    <link type="text/css" rel="stylesheet" href="static/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-    
 <body>
     
 <section class="header">
-        <nav>
-        <a href="index.html"><img src="static/Images/PencilProfavatarsq.png"></a>
+       <nav>
+        <img src="static/Images/PencilProfavatarsq.png">
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
@@ -54,7 +43,7 @@
     <p>
         <br>
         <br>
-        <input type=file  name=file>
+        <a href="index.html"><input type=file  name=file></a>
         <input type=submit  value=Upload> 
     </p>
     </form> 
@@ -75,7 +64,7 @@
 <!------ JavaScript for Toggle Menu  ---------->
 <script>
     
-    var navLinks = document.getElementByID("navLinks");
+    var navLinks = document.getElementById("navLinks");
     
     function showMenu(){
         navLinks.style.right = "0";
@@ -83,7 +72,6 @@
      function hideMenu(){
         navLinks.style.right = "-200px";
     }
-    
     
 </script>    
     
