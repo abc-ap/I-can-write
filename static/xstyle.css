@@ -18,7 +18,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width:100px;
+    width:50px;
 }
 .nav-links{
     flex: 1;
@@ -60,6 +60,9 @@ nav img{
 .text-box1 h1{
     font-size: 62px;
 }
+.text-box1 h4 {
+    font-size: 30px;
+}
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
@@ -87,7 +90,10 @@ nav .fa{
 
 @media(max-width:700px){
     .text-box1 h1{
-            font-size: 20px;
+        font-size: 20px;
+    }
+    .text-box1 h4{
+        font-size: 15px;
     }
     .nav-links ul li{
         display: block;
@@ -105,7 +111,7 @@ nav .fa{
     }
     nav .fa{
         display: block;
-        color: #fff;
+        color: #ffffff;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
@@ -117,14 +123,29 @@ nav .fa{
         padding: 30px;
     }
 }
-.text-box2{
+
+/*----- footer ------*/
+.footer{
     width: 100%;
     color: #3D3D3D;
     text-align: center;
     padding: 30px 0;
 }
-.text-box2 h4{
-    margin-bottom: 35px;
+.footer h4{
+    margin-bottom: 25px;
     margin-top:  20px;
     font-weight: 600;
+}
+.icon .fa{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart{
+    color: #f44336;
+}
+@media(max-width:700px){
+   .footer h4{
+        font-size: 13px;
 }
