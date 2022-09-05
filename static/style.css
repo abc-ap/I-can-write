@@ -91,10 +91,11 @@ mark.red{
     background: #f44336;
     transition: 1s;
 }
+
+/*---- suppress menu icons on desktop -----*/
 nav .fa{
     display: none;
 }
-
 @media(max-width: 700px){
     .text-box1 h1{
         margin-top: 150px;
@@ -132,7 +133,7 @@ nav .fa{
     }
 }
 
-/*--- about us page ----*/
+/*--- sub header common format for non main menu ----*/
 .sub-header{
     height: 50vh;
     width: 100%;
@@ -146,6 +147,10 @@ nav .fa{
     margin-top: 80px;
     font-size: 30px;
 }
+.sub-header p{
+    font-size: 14px;
+}
+/*--- about us page ----*/
 .team{
     width: 80%;
     margin: auto;
@@ -171,6 +176,24 @@ nav .fa{
     margin-right: 30px;
     border-radius: 50%;
 }
+.team h2{
+    font-size: 30px;
+}
+.team h3{
+    font-size: 15px;
+    color: #3D3D3D;
+}
+.team p{
+    font-size: 12px;
+    color: #777;
+}
+.icons .fa{
+    color: #3D3D3D;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
 
 /* Anything under 1024px */
 @media screen and (max-width: 1024px) {
