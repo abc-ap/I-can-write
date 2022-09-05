@@ -18,7 +18,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width:50px;
+    width: 50px;
 }
 .nav-links{
     flex: 1;
@@ -95,7 +95,7 @@ nav .fa{
     display: none;
 }
 
-@media(max-width:700px){
+@media(max-width: 700px){
     .text-box1 h1{
         margin-top: 150px;
         font-size: 20px;
@@ -165,13 +165,13 @@ nav .fa{
   gap: var(--gap);
 }
 .image-grid > img {
-    height:40px;
+    height: 40px;
     margin-left: 5px;
     margin-right: 30px;
     border-radius: 50%;
 }
 
-/* Anything udner 1024px */
+/* Anything under 1024px */
 @media screen and (max-width: 1024px) {
   .image-grid {
     --num-cols: 2;
@@ -197,7 +197,7 @@ nav .fa{
     display: flex;
 }
 .testimonials-col img{
-    height:40px;
+    height: 40px;
     margin-left: 5px;
     margin-right: 30px;
     border-radius: 50%;
@@ -212,7 +212,7 @@ nav .fa{
 }
 .footer h4{
     margin-bottom: 25px;
-    margin-top:  20px;
+    margin-top: 20px;
     font-weight: 600;
 }
 .footer p{
