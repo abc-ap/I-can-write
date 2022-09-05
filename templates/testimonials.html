@@ -29,12 +29,12 @@
     
 <section class="sub-header">
     <nav>
-        <a href="/"><img src="{{ url_for('static',filename='Images/R.png') }}"></a>
+        <a href="index.html"><img src="static/Images/R.png"></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
-                <li><a href="/testimonials/">TESTIMONIALS</a></li>
-                <li><a href="/about/">ABOUT</a></li>
+                <li><a href="testimonials.html">TESTIMONIALS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
             </ul>        
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -44,10 +44,10 @@
 
 <section class="testimonials">
     <h2>What Our Parents Say</h2>
-
+    <br>
     <div class "row">
         <div class="testimonials-col">
-            <img src="{{ url_for('static',filename='Images/woman.jpg') }}">
+            <img src='static/Images/woman.jpg'>
             <div>
                 <p>Lorem ipsonm dolor sit amet, consectetur adipiscing elit. Pellentesque.</p>
                 <h3>Amanda Lim</h3>
@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="testimonials-col">
-            <img src="{{ url_for('static',filename='Images/man.jpg') }}">
+            <img src='static/Images/man.jpg'>
             <div>
                 <p>Lorem ipsonm dolor sit amet, consectetur adipiscing elit. Pellentesque.</p>
                 <h3>John Ang</h3>
@@ -68,7 +68,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-half-o"></i>
-          </div>
+            </div>
         </div>
    </div>
 </section>
