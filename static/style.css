@@ -196,6 +196,7 @@ nav .fa{
 }
 .image-grid img:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
 
 /* Anything under 1024px */
 @media screen and (max-width: 1024px) {
