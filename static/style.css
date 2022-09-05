@@ -191,7 +191,9 @@ nav .fa{
 }
 .icons .fa{
     color: #3D3D3D;
+    margin: 0 5px;
     cursor: pointer;
+    padding: 0 0;
 }
 .image-grid img:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
