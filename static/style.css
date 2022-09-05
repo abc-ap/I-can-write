@@ -170,7 +170,7 @@ nav .fa{
   grid-auto-rows: var(--row-height);
   gap: var(--gap);
 }
-.image-grid > img {
+.image-grid img{
     height: 40px;
     margin-left: 5px;
     margin-right: 30px;
@@ -193,7 +193,6 @@ nav .fa{
     cursor: pointer;
     padding: 18px 0;
 }
-
 
 /* Anything under 1024px */
 @media screen and (max-width: 1024px) {
