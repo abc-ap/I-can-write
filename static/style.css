@@ -146,15 +146,6 @@ nav .fa{
     margin-top: 80px;
     font-size: 30px;
 }
-.sub-header h2{
-     font-size: 30px;
-}
-.sub-header h3{
-     font-size: 20px;
-}
-.sub-header p{
-    font-size: 14px;
-}
 .team{
     width: 80%;
     margin: auto;
@@ -193,18 +184,25 @@ nav .fa{
 .testimonials{
     width: 80%;
     margin: auto;
-    text-align: center;
     padding-top: 100px;
+    text-align: center;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 .testimonials-col{
-    flex-basis: 44%;
-    border-radius: 10%;
+    flex-basis: 50%;
+    border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
     background: #fff3f3;
-    padding: 25px;
-    cursor: pointer;
-    display: flex;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.testimonials-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 .testimonials-col img{
     height: 40px;
@@ -220,6 +218,22 @@ nav .fa{
 }
 .fa-star-half-o{
     color: #f44336;
+}
+.testimonials h2{
+    font-size: 30px;
+}
+.testimonials h3{
+    font-size: 20px;
+    color: #777;
+}
+.testimonials p{
+    font-size: 14px;
+    color: #777;
+}
+@media(max-width: 700px){
+    .row {
+        flex-direction: column;
+    }
 }
 
 /*----- footer ------*/
