@@ -223,11 +223,11 @@ nav .fa{
     font-size: 30px;
 }
 .testimonials h3{
-    font-size: 20px;
+    font-size: 15px;
     color: #777;
 }
 .testimonials p{
-    font-size: 14px;
+    font-size: 12px;
     color: #777;
 }
 @media(max-width: 700px){
