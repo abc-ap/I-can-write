@@ -146,11 +146,14 @@ nav .fa{
     margin-top: 80px;
     font-size: 30px;
 }
-.sub-header h1{
-     font-size: 18px;
+.sub-header h2{
+     font-size: 30px;
+}
+.sub-header h3{
+     font-size: 20px;
 }
 .sub-header p{
-    font-size: 13px;
+    font-size: 14px;
 }
 .team{
     width: 80%;
@@ -208,6 +211,15 @@ nav .fa{
     margin-left: 5px;
     margin-right: 30px;
     border-radius: 50%;
+}
+.fa-star{
+    color: #f44336;
+}
+.fa-star-o{
+    color: #f44336;
+}
+.fa-star-half-o{
+    color: #f44336;
 }
 
 /*----- footer ------*/
