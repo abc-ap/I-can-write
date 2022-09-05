@@ -162,7 +162,7 @@ nav .fa{
 
   display: grid;
   grid-template-columns: repeat(var(--num-cols), 1fr);
-4  grid-auto-rows: var(--row-height);
+  grid-auto-rows: var(--row-height);
   gap: var(--gap);
 }
 .image-grid > img {
