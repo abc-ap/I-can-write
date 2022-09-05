@@ -158,7 +158,7 @@ nav .fa{
     padding-top: 100px;
 }
 .image-grid {
-  --gap: 16px;
+  --gap: 25px;
   --num-cols: 3;
   --row-height: 100px;
 
