@@ -79,7 +79,7 @@ mark.red{
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
-    border: 1px transparent #ffffff;
+    border: 1px solid #ffffff;
     padding: 0px 0px;
     font-size: 14px;
     background: transparent;
