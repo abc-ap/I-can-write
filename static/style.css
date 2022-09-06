@@ -152,11 +152,6 @@ nav .fa{
 }
 
 /*--- about us page ----*/
-.h2{
-    margin-top: 10px;
-    font-size: 30px;
-    text-align: center;
-}
 .team{
     width: 80%;
     margin: auto;
@@ -182,11 +177,14 @@ nav .fa{
 }
 .image-grid img{
     flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
+    width: 50%;
+    max-width: 50%;
     margin-left: 5px;
     margin-right: 10px;
     border-radius: 50%;
+}
+.team h2{
+    font-size: 30px;
 }
 .team h3{
     font-size: 15px;
