@@ -206,11 +206,6 @@ nav .fa{
     padding-top: 100px;
     text-align: center;
 }
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
 .testimonials-col{
     flex-basis: 50%;
     border-radius: 10px;
@@ -219,6 +214,9 @@ nav .fa{
     background: #fff3f3;
     padding: 20px 12px;
     box-sizing: border-box;
+}
+.testimonials-col{
+    display: flex;
 }
 .testimonials-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
