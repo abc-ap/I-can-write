@@ -162,10 +162,10 @@ nav .fa{
     padding: 20px 12px;
     box-sizing: border-box;    
 }
-.image-grid {
-  --gap: 33%;
+.image-grid{
+  --gap: 50px;
   --num-cols: 3;
-  --row-height: 300px;
+  --row-height: 200px;
 
   box-sizing: border-box;
   padding: var(--gap);
