@@ -193,11 +193,11 @@ nav .fa{
     font-size: 12px;
     color: #777;
 }
-.icons .fa{
+.fa-envelope-o{
     color: #3D3D3D;
-    margin: 0 5px;
-    cursor: pointer;
-    padding: 0 0;
+}
+.fa-phone{
+    color: #3D3D3D;
 }
 .image-grid img:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
