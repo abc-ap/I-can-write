@@ -163,7 +163,7 @@ nav .fa{
     box-sizing: border-box;    
 }
 .image-grid {
-  --gap: 15px;
+  --gap: 50px;
   --num-cols: 3;
   --row-height: 100px;
 
