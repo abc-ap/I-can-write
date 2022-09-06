@@ -211,7 +211,7 @@ nav .fa{
 @media screen and (max-width: 1024px) {
   .image-grid {
     --num-cols: 2;
-    --row-height: 100px;
+    --row-height: 120px;
   }
 }
 
