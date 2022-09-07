@@ -180,11 +180,15 @@ nav .fa{
 }
 .fa-envelope-o{
     color: #3D3D3D;
+    margin: 0 13px;
     cursor: pointer;
+    padding: 18px 0;
 }
 .fa-phone{
     color: #3D3D3D;
+    margin: 0 13px;
     cursor: pointer;
+    padding: 18px 0;
 }
 .team:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
