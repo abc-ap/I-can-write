@@ -55,13 +55,13 @@ def prediction(filename):
 def testimonials():
     return render_template('testimonials.html')
 
-@app.route('/contact us/', methods=['GET']) 
-def about():
-    return render_template('contact.html')
-
 @app.route('/about/', methods=['GET']) 
 def about():
-    return render_template('contact.html')
+    return render_template('about.html')
+
+@app.route('/contact us/', methods=['GET']) 
+def about():
+    return render_template('contact.html')1
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8080)
