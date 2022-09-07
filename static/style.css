@@ -180,9 +180,11 @@ nav .fa{
 }
 .fa-envelope-o{
     color: #3D3D3D;
+    cursor: pointer;
 }
 .fa-phone{
     color: #3D3D3D;
+    cursor: pointer;
 }
 .team:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
@@ -254,15 +256,6 @@ nav .fa{
 }
 
 /*----- contact us ----*/
-.testimonials-col{
-    flex-basis: 50%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-    background: #fff3f3;
-    padding: 20px 12px;
-    box-sizing: border-box;
-}
 .location{
     width: 80%;
     margin: auto;
