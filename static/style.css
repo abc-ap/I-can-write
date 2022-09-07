@@ -180,8 +180,9 @@ nav .fa{
 }
 .fa-envelope-o{
     color: #3D3D3D;
-    margin-bottom: 13px;
+    margin: 0 13px;
     cursor: pointer;
+    padding: 5px 0;
 }
 .fa-phone{
     color: #3D3D3D;
