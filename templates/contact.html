@@ -1,3 +1,19 @@
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "9cbf8297-9274-4cc7-bd81-31e0caba4d93", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "24dca861-946b-4a70-9ae5-ececadbcfa3c", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +29,7 @@
     
 <section class="sub-header">
     <nav>
-        <a href="index.html"><img src="static/Images/R.png"></a>
+        <a href="/"><img src="{{ url_for('static',filename='Images/R.png') }}"></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
@@ -38,7 +54,7 @@
                 <span>
                     <h5>Battery Road, ABC Plaza</h5>
                     <p>Singapore 123456</p>
-        5        </span>
+                </span>
             </div>
             <div>
                 <i class="fa fa-phone"></i>
