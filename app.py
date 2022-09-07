@@ -1,22 +1,27 @@
 import os 
 from flask import Flask, request, redirect, url_for, render_template
 from werkzeug.utils import secure_filename
+	
 
 app = Flask(__name__)
+	
 
 import tensorflow as tf 
 import matplotlib.pyplot as plt 
 import numpy as np
 #import math
 import re
+	
 
 from keras.models import load_model 
 from keras.backend import set_session
 from skimage.transform import resize 
+	
 
 print("Loading model") 
 global model 
 model = load_model('handwriting.h5') 
+	
 
 @app.route('/', methods=['GET', 'POST']) 
 def main_page():
@@ -26,6 +31,7 @@ def main_page():
         file.save(os.path.join('uploads', filename))
         return redirect(url_for('prediction', filename=filename))
     return render_template('index.html')
+	
 
 @app.route('/prediction/<filename>') 
 def prediction(filename):
@@ -50,18 +56,22 @@ def prediction(filename):
       "comment":grade
      }
     return render_template('predict.html', predictions=predictions)
+	
 
 @app.route('/testimonials/', methods=['GET']) 
 def testimonials():
     return render_template('testimonials.html')
+	
 
 @app.route('/about/', methods=['GET']) 
 def about():
     return render_template('about.html')
+	
 
 @app.route('/contact us/', methods=['GET']) 
 def about():
     return render_template('contact.html')
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8080)
