@@ -327,6 +327,17 @@ nav .fa{
 .feedback-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
+@media screen and (max-width: 1024px) {
+  .location {
+        flex-direction: column;
+  }
+  .contact-col{
+            flex-direction: column;
+  }    
+  .feedback-col{
+            flex-direction: column;
+  }
+}
 
 /*----- footer ------*/
 .footer{
