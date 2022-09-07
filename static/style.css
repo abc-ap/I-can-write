@@ -190,7 +190,7 @@ nav .fa{
     cursor: pointer;
 }
 .team:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 .image-grid img:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
@@ -290,16 +290,15 @@ nav .fa{
 .contact-col h2{
     font-size: 30px;
     margin-bottom: 0;
-    color: #777;
     font-weight: 400;
 }
 .contact-col p{
     padding: 0;
     font-size: 20px;
     margin-bottom: 5px;
-    align-items: left;
+    color: #777;
 }
-.contact:hover{
+.contact-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 .feedback-col{
@@ -311,16 +310,10 @@ nav .fa{
     padding: 20px 12px;
     box-sizing: border-box;
 }
-.feedback-col h2{
-    font-size: 30px;
-    margin-bottom: 0;
-    color: #777;
-    font-weight: 400;
-}
 .feedback-col p{
     padding: 0;
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-top: 30px;
     align-items: left;
 }
 .feedback-col input, .feedback-col textarea{
@@ -331,7 +324,7 @@ nav .fa{
     border:1px solid #ccc;
     box-sizing: border-box;
 }
-.feedback:hover{
+.feedback-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
