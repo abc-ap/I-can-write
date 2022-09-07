@@ -55,9 +55,9 @@ def prediction(filename):
 def testimonials():
     return render_template('testimonials.html')
 
-@app.route('/about/', methods=['GET']) 
+@app.route('/contact us/', methods=['GET']) 
 def about():
-    return render_template('about.html')
+    return render_template('contact.html')
 
 @app.route('/about/', methods=['GET']) 
 def about():
