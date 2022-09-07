@@ -68,7 +68,7 @@ def about():
     return render_template('about.html')
 	
 
-@app.route('/contact us/', methods=['GET']) 
+@app.route('/contact/', methods=['GET']) 
 def about():
     return render_template('contact.html')
 
