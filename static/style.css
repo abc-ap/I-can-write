@@ -261,10 +261,12 @@ nav .fa{
 /*----- contact us ----*/
 .location{
     padding-bottom: 80px;
+    margin: auto;
     text-align: center;
 }
 .location iframe{
     width 100%;
+    flex-basis: 50%;
 }
 .contact-us{
     width: 80%;
@@ -288,7 +290,6 @@ nav .fa{
 .contact-col h2{
     font-size: 30px;
     margin-bottom: 0;
-    font-weight: 400;
 }
 .contact-col p{
     padding: 0;
