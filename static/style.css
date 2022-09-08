@@ -260,6 +260,7 @@ nav .fa{
 
 /*----- contact us ----*/
 .location{
+    padding-bottom: 80px;
     text-align: center;
 }
 .location iframe{
@@ -294,9 +295,6 @@ nav .fa{
     font-size: 20px;
     margin-bottom: 5px;
     color: #777;
-}
-.contact-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 .feedback-col{
     flex-basis: 50%;
