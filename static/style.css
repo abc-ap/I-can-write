@@ -265,8 +265,7 @@ nav .fa{
     text-align: center;
 }
 .location iframe{
-    width 100%;
-    flex-basis: 50%;
+    width: 100%;
 }
 .contact-us{
     width: 80%;
