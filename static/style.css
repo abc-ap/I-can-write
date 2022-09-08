@@ -260,9 +260,6 @@ nav .fa{
 
 /*----- contact us ----*/
 .location{
-    width: 80%;
-    margin: auto;
-    padding: 80px 0;
     text-align: center;
 }
 .location iframe{
@@ -277,7 +274,7 @@ nav .fa{
     margin-bottom: 5px;
     border-radius: 10px;
     text-align: center;
-    background: #fff3f3;
+    background: #ffffff;
     padding: 20px 12px;
     box-sizing: border-box;
 }
@@ -306,7 +303,7 @@ nav .fa{
     margin-bottom: 5px;
     border-radius: 10px;
     text-align: center;
-    background: #ffffff;
+    background: #fff3f3;
     padding: 20px 12px;
     box-sizing: border-box;
 }
